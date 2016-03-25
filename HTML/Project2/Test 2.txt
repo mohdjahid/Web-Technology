@@ -1,0 +1,6 @@
+text-style: bold
+
+	to bold the text.
+
+text-transformation: uppercase;
+	to uppercase. 

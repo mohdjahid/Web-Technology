@@ -1,0 +1,53 @@
+Gradient
+	Use
+	     1.	background:-webkit-linear-gradient(color, color, .........)
+		background:-webkit-linear-gradient(position, color,color, .......)
+						   left/right
+		background:-webkit-linear-gradient(deg, color,color, .......)
+				     For example:   48deg;
+
+		position:  top bottom  left right
+
+	     2. background:-webkit-radial-gradient(color, color,      .......)
+			concentric circle
+					       inner-most,upper-one,  last-outer-one
+
+CSS Selector type
+		1.  Common Selector
+		2.  CHild Selector
+		3.  Sibling Selector
+		4.  Attribute Selector
+		5.  pseudo classes
+		6.  pseudo elements
+
+	Attribute Selector
+		1.  Attribute Present Selector
+			a[target]{...}                                     css code
+			<a href="#" target="_blank">...</a>                html code
+		2.  Attribute Equals Selector
+			a[href="http:google.com/"]{...}
+			<a href="http://google.com/">...</a>
+		3.  Attribute Contains Selector
+			a[href*="login"]{...}
+			<a href="/login/php">...</a>
+		4.  Attribute Begins With Selector
+			a[href^="https://"]{...}
+			<a href=""https://chase.com/">...</a>
+		5.  Attribute Ends With Selector
+			a[href$=".pdf"]{...}
+			<a href="/docs/menu.pdf">...</a>
+		6.  Attribute Spaced Selector
+			a[rel~="tag"]{...}
+			<a href="#" rel="tag nofollow">..</a>
+		7.  Attribute hyphenated Selector
+			a[lang |="en"]{...}
+			<a href="#" lang="en-US">....</a>
+
+	Pseudo-CLASSES
+		1. Link Pseudo-classes
+		2. User Action psuedo-classes
+		3. User Interface State psuedo-classes
+		4. Structural & Position psuedo-classes
+		5. Target psuedo-class
+		6. Empty psuedo-class
+		7. Negation psuedo-classes

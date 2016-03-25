@@ -1,0 +1,77 @@
+body{
+	background-color: #ffffff;
+}
+
+.outer-div-pos{
+	background-color: #9be5f0;
+	width: 548px;
+    height: 550px;
+	padding-top:1px;
+	padding-left:18px;
+	padding-right:15px;
+	margin: auto;
+	margin-top:55px;
+}
+
+.inner-div-pos{
+	background-color:#f7f7f7;
+	margin-top:-24px;
+	width:512px;
+	height:460px;
+	padding-top:20px;
+	padding-left:18px;
+	padding-right:15px;
+}
+
+.gray-color{
+	color:#a3b0b8;
+}
+.blue-color{
+	color:#81aee6;
+	font-size: 27px;
+}
+
+.text-div{
+	width:504px;
+	height: 400px;
+	text-align: right;
+	padding-right:8px;
+	background-color: ##f7f7f7;
+}
+
+input{
+	height:30px;
+	width:307px;
+	border:hidden;
+	background:none;
+	margin-left:15px;
+	margin-right:10px;	
+	border-bottom:2px solid #D6CBCD;
+}
+
+.option-div{
+	height:30px;
+	width:75px;
+	border:hidden;
+	background:none;
+	margin-left:15px;
+	margin-right:10px;	
+	border-bottom:2px solid #D6CBCD;
+}
+
+.phone-div{
+	float: right;
+    height: 30px;
+    width: 230px;
+    border: hidden;
+    background: none;
+    margin-left: -11px;
+    margin-right: 14px;
+    border-bottom: 2px solid #D6CBCD;
+
+}
+
+span{
+	color:red;
+}
+

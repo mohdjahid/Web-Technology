@@ -1,0 +1,23 @@
+body{
+	/*background-color:red;*/
+}
+
+img{
+	margin-left:100px;
+	-webkit-filter:blur(1px);
+	-o-filter:blur(10px);
+	-moz-filter:blur(10px);
+	filter:blur(10px);
+}
+
+div{
+	height:300px;
+	background:red;
+
+}
+
+.abc{
+	height{300px'
+	background: pink;
+	-webkit-linear-gradient:(pink, green);
+}

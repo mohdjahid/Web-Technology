@@ -1,0 +1,27 @@
+.logo{
+	background-image: url("jmi logo.jpg");
+	background-blend-mode:multiply;
+	background-size: 100px 100px;
+	background-repeat:no-repeat;
+	height:100px;
+	background-color:#37693D;
+}
+
+.round-image{
+	background-color: #37693D;
+    background-image: url("jmi logo.jpg");
+    background-size: 300px 300px;
+    height: 297px;
+    width: 303px;
+    border-radius: 150px;
+    overflow: hidden;
+    background-blend-mode: multiply;
+    margin-left:480px;
+    /*-webkit-filter: blur(2px);*/
+ }
+
+.shadow-text{
+	text-shadow:10px 10px #469C50;;
+	font-size:59px;
+	text-align:center;
+}

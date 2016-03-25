@@ -1,0 +1,33 @@
+Mark Otto and Jacob Thornton at Twitter,
+and released as an open sourec product in August 2011 on Github.
+
+Why Use Bootstrap:
+	1. Easy to use
+        2. Reponsive features
+        3. Mobile-first approach
+        4. Browser compatibility
+
+
+Two types of container
+	1. container
+        2. container-fluid
+
+Classes:
+	row
+	col-md-2
+	jumbotron (grey-background with border-radius)
+Button:
+	btn btn-default
+	btn btn-primary
+	btn btn-success
+	btn btn-info
+	btn btn-warning
+	btn btn-danger
+	btn btn-link
+Text:
+	text-center
+	text-right
+	text-left
+	text-primary
+	text-justify
+	text-danger

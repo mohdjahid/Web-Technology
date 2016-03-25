@@ -1,0 +1,74 @@
+body{
+	background-image: url("back.jpg");
+	background-repeat:  repeat;
+}
+
+h1{
+	font-size: 40px;
+	color:white;
+}
+
+.div-pos{
+	margin-top:100px;
+	/*border:1px solid red;*/
+
+}
+
+.form-pos{
+	border:none;
+	width:402px;
+	margin:auto;
+	height:auto;
+	border-radius: 0px 0px 4px 4px;
+	background-color: white;
+	
+}
+
+input{
+	height:30px;
+	margin-top:20px;
+	margin-left:15px;
+	margin-right:10px;	
+	border:2px solid #D6CBCD;
+	border-radius:5px;    /* Need to update  */
+	outline:none;
+}
+
+.input-big{
+	width:366px;
+	outline:none;
+}
+
+button{
+	height:30px;
+	width:100px;
+	background-color: #eb474e;
+	border-radius: 6px;
+	border:none;
+	color:white;
+	margin-left:40%;
+}
+
+#grey-text{
+	padding-left: 100px;
+	color:gray;
+}
+
+#blue-text{
+	text-align: center;
+	color:blue;
+	text-decoration: underline;
+}
+
+.create-account-div{
+	background-color: #0fa7e8;
+	width:402px;
+	height:50px;
+	margin:auto;
+	padding-top:20px;
+	border-bottom:3px solid red;
+	text-align:center;
+	font-size: 25px;
+	color:white;
+	border-radius:4px 4px 0px 0px;
+}

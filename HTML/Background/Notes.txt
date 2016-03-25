@@ -1,0 +1,57 @@
+>	background-color=
+>	background-image=
+>	background-position=
+>	background-repeat=
+>	background-repeat:  repeat-x
+>	background-repeat:  repeat-y
+>	background-blend-mode=
+>	background-clip=
+>	background-attachment=
+>	background-width=
+
+Properties of background-clip=
+	1. padding-box   (including padding & excluding border)
+	2. content-box   (excluding padding)
+	3. border-box    (including border)
+Properties of background-position=
+	1. top right
+	2. right
+	3. center
+	4. centre
+	5. pixels can be written
+Properties of background-blend-mode=  (mixed with background color)
+	1.  screen 
+	2.  multiply
+	3.  overlay
+	4.  darken
+	5.  color-dodge
+	6.  color-burn
+	7.  hard-light
+	8.  soft-light
+	9.  difference
+	10. exclusion
+	11. hue
+	12. saturation
+	13. luminosity
+
+----------------- sprite image ---------------------------------
+> type sprite image in google
+> always present in png format
+>    In css file
+		sprite{
+			background-image:url("sprite.jpg");	
+		}
+		.abc{
+			background-position:20px 20px;
+					     w    h
+			width:20px;
+			height:20px;
+		}
+      In html file
+		<div class="sprite abc">
+		</div>
+      use inspect element
+		to change the icons
+----------------- opacity----------------------------------------
+		for transparent
+		overlapping with other div then it will become "mast"

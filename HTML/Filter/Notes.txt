@@ -1,0 +1,37 @@
+-webkit-border-radius:3px;     // Google Chrome or apple safari
+-o-border-radius:3px;          // opera
+-moz-border-radius:3px         // Morzilla
+
+
+text-shadow: 3px         3px                   red;
+	     right/left  bottom/top            color
+		+   -       +    -
+
+Filter
+    filter:blur(10px)
+    filter:brightness(0.30)
+    filter:contrast:(180%)
+    filter:grayscale(10%)
+    filter:hue-rotate(180deg)
+    filter:invert(100%)
+    filter:opacity(50%)
+    filter:saturate(7)
+    filter:sepia(100%)
+    filter:drop-shadow(x y z color)
+
+-webkit-transition and -webkit-transition-delay
+    For example:
+		.prolog{
+			width:300px;
+			margin-left:150px;
+			height:200px;
+			background:yellow;
+                        -webkit-transition:width 3s, height 5s;
+                        -webkit-transition-delay:2s;					
+		}
+               
+		.prolog:hover{
+			width:800px;
+			height:800px;
+			backroung:pink;
+                }

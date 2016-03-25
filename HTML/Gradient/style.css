@@ -1,0 +1,13 @@
+.gra{
+	height:100px;
+	background:-webkit-radial-gradient(red, blue, yellow);
+}
+
+.gray:hover{
+	background-color:blue;	
+}
+
+a[lang |="en"]{
+
+	color:red;
+}

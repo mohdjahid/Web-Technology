@@ -31,3 +31,10 @@ Text:
 	text-primary
 	text-justify
 	text-danger
+Button:
+	btn-lg
+	btn-md
+	btn-xs
+	btn-sm
+image:
+	img-responsive

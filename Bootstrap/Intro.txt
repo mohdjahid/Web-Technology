@@ -38,3 +38,15 @@ Button:
 	btn-sm
 image:
 	img-responsive
+
+well:
+	<div class="well"><BASCSD</div>	
+
+glyphicon:
+	<span class="glyphicon glyphicon-name"></span>	
+
+badge:
+	<span class="badge">8</span>
+	like Notification Number on Button
+label:
+	<span class="label label-danger">Excellent</span>	

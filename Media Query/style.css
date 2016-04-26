@@ -1,0 +1,57 @@
+.abc{
+	background-color:pink;
+}
+.abcd{
+	display:none;
+}
+
+@media screen and (max-width:768px)
+{
+	
+	.abc{
+			width:50%;
+			display:inline-block;
+			background-color:red;
+	}
+
+	.abcd{
+			width:49.5%;
+			float:right;
+			display:inline-block;
+			background-color:yellow;
+	}
+}
+
+@media screen and (max-width:480px)
+{
+	
+	.abc{
+			width:50%;
+			display:inline-block;
+			background-color:yellow;
+	}
+
+	.abcd{
+			width:49.5%;
+			float:right;
+			display:inline-block;
+			background-color:red;
+	}
+}
+
+@media screen and (max-width:320px)
+{
+	
+	.abc{
+			width:50%;
+			display:inline-block;
+			background-color:red;
+	}
+
+	.abcd{
+			width:49.5%;
+			float:right;
+			display:inline-block;
+			background-color:yellow;
+	}
+}

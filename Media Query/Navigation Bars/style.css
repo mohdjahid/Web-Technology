@@ -1,0 +1,93 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+
+.nav-wrapper{
+	height:38px;
+}
+
+ul{
+	list-style-type:none;
+
+}
+
+ul li{
+	display:inline-block;
+	width:10%;
+	padding:10px;
+	margin-right:50px;
+	float:left;
+	background-color: green;
+	color:#8BC34A;
+	text-align:center;
+	border-radius:3px;
+}
+
+/*----------- Media Query Starts ---------*/
+@media screen and (max-width:1024px){
+	ul li{
+		background-color: #5A214E;
+		margin-right:45px;
+		color:pink;
+		width:9%;
+	}
+	ul li:last-child{
+		width:11%;
+	}
+} 
+
+@media screen and (max-width:768px){
+	ul li{
+		background-color: #3FB595;
+		margin-right:17px;
+		color:#113E3A;
+		width:11%;
+	}
+	ul li:last-child{
+		width:14%;
+	}
+} 
+
+@media screen and (max-width:768px){
+	ul li{
+		background-color: #3FB595;
+		margin-right:17px;
+		color:#113E3A;
+		width:11%;
+	}
+	ul li:last-child{
+		width:14%;
+	}
+} 
+
+@media screen and (max-width:480px){
+	ul li{
+		background-color: red;
+		margin-right:17px;
+		color:#113E3A;
+		width:24%;
+		margin-bottom:5px;
+	}
+	ul li:last-child{
+		width:24%;
+	}
+} 
+
+
+@media screen and (max-width:320px){
+	ul li{
+		background-color: yellow;
+		margin-right:17px;
+		margin-left:35px;
+		color:#113E3A;
+		width:40%;
+		margin-bottom:5px;
+	}
+	ul li:last-child{
+		width:40%;
+	}
+} 
+
+
+/*------------Media Query Ends------------*/

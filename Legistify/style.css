@@ -1,0 +1,52 @@
+body{
+	padding:0px; 
+	margin:0px;
+}
+
+.header{
+	padding:20px;
+	background-color:#232c3d;    /*purple color */
+	color:#fefffa;
+}
+
+.logo-name{
+	display:inline-block;
+	font-size:50px;
+	margin:0px;
+}
+
+.logo-nav-container{
+	width:80%;
+	margin:auto;
+}
+
+.nav-bar{
+	display:inline-block;
+	float:right;
+}
+
+ul{
+	list-style-type:none;
+}
+
+ul li{
+	font-size:21px;
+	display:inline;
+	float:left;
+	padding:5px;
+	margin-left:20px;
+}
+
+ul li:last-child{
+	border:1px solid #fefffa;
+}
+
+.body-container{
+	width:80%;
+	margin:auto;
+	background-color: red;
+}
+
+.form-header{
+	font-size: 50px;
+}

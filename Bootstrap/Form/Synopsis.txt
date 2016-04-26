@@ -1,0 +1,52 @@
+<div class="container">
+
+<form role="form">
+	<div class="form-group">
+		<label role="form"> Enter email</label>
+		<input type="Email" class="form-control">
+	</div>
+</form>
+
+
+<div class="container">
+
+<form role="form" class="form-inline">
+	<div class="form-group">
+		<label role="form"> Enter email</label>
+		<input type="Email" class="form-control">
+	</div>
+</form>
+
+
+<div class="container">
+
+<form role="form">
+	<div class="form-group" class="form-horizontal">
+		<label role="form" class="col-md-3"> Enter email</label>
+		<div class="col-md-9"><input type="Email" class="form-control"></div>
+	</div>
+</form>
+
+
+image
+	1. img-rounded
+	2. img-responsive
+	3. img-circle
+	<img src="img.jpg" class="img-rounded" class="img-responsive">
+	
+
+
+Standard Codes
+	To move a div at centre of screen
+	.abc{
+		border:1px solid red;
+		top:0;
+		bottom:0;
+		left:0;
+		right:0;
+		position:absolute;		
+	} 
+	.abc{
+		margin: 0 auto;
+	}
+

@@ -1,0 +1,18 @@
+Media Query Breakpoints:
+	1024 px
+	992 px
+	768 px
+	480 px
+	320 px
+
+In css file:
+	.abc{
+		background-color:red;	
+ }
+
+@media screen and (max-width:480px)
+{
+	.abc{
+		background-color:blue;
+	}
+}

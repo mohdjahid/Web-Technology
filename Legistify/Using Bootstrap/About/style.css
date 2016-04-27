@@ -52,6 +52,11 @@ ul li:last-child{
 	letter-spacing: 12px;
 }
 
+a{
+	color:black;
+}
+
+
 @media screen and (max-width:480px)
 {
 	.rahul-text{

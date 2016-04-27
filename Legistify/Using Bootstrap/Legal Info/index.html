@@ -14,6 +14,15 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 
 	<script>
+
+		function addField()
+		{	
+			var a=document.getElementById("add-field");
+			var b=document.createElement("div");
+			b.innerHTML='<br><input type="textfield" placeholder="Court Name" id="court"></input>';
+			a.appendChild(b);
+		}
+
 		function loadAnotherFrom()
 		{
 			
@@ -118,8 +127,13 @@
 					<div class="col-md-3">
 						<div class="text-color">*Court:</div>
 					</div>
-					<div class="col-md-8 col-md-offset-1">
-						<input type="textfield" id="court"></input>
+					<div class="col-md-6 col-md-offset-1">
+						<input type="textfield" placeholder="Court Name" id="court"></input>
+						<div id="add-field">
+						</div>
+					</div>
+					<div class="col-md-1">
+						<button onclick="addField()" id="add-button" class="menu-item-design lower-button-margin">+Add</button>
 					</div>
 				</div>
 				<br>

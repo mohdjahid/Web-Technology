@@ -46,6 +46,10 @@ ul li:last-child{
 	color:white;
 }
 
+a{
+	color:black;
+}
+
 .rahul-text{
 	font-size:45px;
 	font-weight: bold;

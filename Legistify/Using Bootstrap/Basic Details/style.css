@@ -88,7 +88,7 @@ ul li:last-child{
 }
 
 select, input,textarea{
-	color:#eeeced;
+	color:black;
 	font-weight:bold;
 	width:100%;
 	padding:5px;

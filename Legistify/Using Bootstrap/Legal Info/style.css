@@ -88,10 +88,10 @@ ul li:last-child{
 }
 
 select, input{
-	color:#eeeced;
+	color:black;
 	font-weight:bold;
 	width:100%;
-	padding:5px;
+	padding:7px;
 	outline:none; 
 }
 

@@ -1,0 +1,119 @@
+body{
+	padding:0px;
+	margin:0px;
+}
+
+.header{
+	background-color:#232c3d;    /*purple color */
+	color:white;
+}
+
+img{
+	display:inline;
+}
+
+ul{
+	list-style-type:none;
+}
+
+ul li{
+	font-size:15px;
+	display:inline-block;
+	margin-left:10px;
+	padding:10px;
+}
+
+ul li:last-child{
+	border:1px solid #fefffa;
+}
+
+.nav-margin{
+	margin-top:20px;
+	margin-bottom:10px;
+}	
+
+.logo-margin{
+	margin-top:20px;
+}
+.logo-name{
+	font-size:25px;
+}
+
+.form-header{
+	font-size:40px;
+	color:#232c3d;
+	font-weight:bold;
+}
+
+.form-border{
+	border:2px solid #7d7d7d;
+	border-right:none;
+	height:340px;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+
+.form-border::-webkit-scrollbar{
+    background-color:white;
+    width: 8px;
+}
+
+.form-border::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+.form-border::-webkit-scrollbar-thumb{
+    border-radius: 15px;
+    background-color: #232c3d;
+}
+
+.form-menu-color{
+	background-color:#eeeced; /*  Grey color */
+}
+
+.menu-item-design{
+	font-size:22px;
+	border:4px solid #232c3d;
+	color:#232c3d;
+	padding:5px;
+	padding-left:15px;
+	margin-bottom:10px;
+	font-weight:bold;
+	background-color:white;
+}
+
+.text-color{
+	color:#232c3d;   	/*purple color */
+	font-size:20px;
+}
+
+select, input{
+	color:#eeeced;
+	font-weight:bold;
+	width:100%;
+	padding:5px;
+	outline:none; 
+}
+
+.menu-item-design.reference-menu-item{
+	font-size:15px;
+	padding:2px;
+}
+
+.lower-button-margin{
+	margin-right:35px;
+	width:100px;
+	height:40px;
+	text-align:center;
+	padding-bottom:30px;
+}
+
+.main-border-bottom{
+	border-bottom:5px solid #232c3d;   	/*purple color */
+}
+
+.user-info{
+	background-color:#232c3d;
+	color:white;
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+	<link rel="stylesheet" type="text/css" href="Legal Info.css">
+
+	<script>
+
+		function addField()
+		{	
+			var a=document.getElementById("add-field");
+			var b=document.createElement("div");
+			b.innerHTML='<br><input type="textfield" placeholder="Court Name" id="court"></input>';
+			a.appendChild(b);
+		}
+
+		function loadAnotherFrom()
+		{
+			
+			if(document.getElementById("practice-area").value=="Select Max 4 Practice Area")
+			{
+				alert("Please chose a Practice Area");
+				return;
+			}
+			if(document.getElementById("court").value=="")
+			{
+				alert("Please type a court name");
+				return;
+			}
+			if(document.getElementById("state").value=="")
+			{
+				alert("Please fill a state");
+				return;
+			}
+			if(document.getElementById("address").value=="")
+			{
+				alert("Please fill the user name");
+				return;
+			}
+			window.location.href="Basic Details.html";
+		}
+	</script>
+
+
+</head>
+
+<body>
+
+<div class="container-fluid main-border-bottom">
+	
+	<div class="row header">
+		<div class="col-md-5 col-md-offset-1 logo-margin">
+				<img src="logo.jpg" >
+				<span class="logo-name">legistify</span>
+		</div>
+		<div class="col-md-6 nav-margin">
+			<ul>
+				<li>ABOUT</li>
+				<li>DOCUMENT</li>
+				<li>RESEARCH</li>
+				<li>LOGIN</li>
+				<li>For Lawyers</li>
+			</ul>
+		</div>
+	</div>
+
+	<br><br><br>
+
+	<div class="container">
+			<p class="form-header">Lawyer SingUp Form</p>
+	</div>
+	<br>
+	<div class="container form-border">
+		<div class="row">
+			<div class="col-md-4 form-menu-color">
+				<br>
+				<div class="row">	
+					<div class="col-md-10 col-md-offset-1 menu-item-design">User Details
+					<i class="fa fa-check-circle" style="float:right"></i>
+					</div>
+				</div>
+				<div class="row">	
+					<div class="col-md-10 col-md-offset-1 menu-item-design legal-info">Legal Info
+					</div>
+				</div>
+				<div class="row">	
+					<div class="col-md-10 col-md-offset-1 menu-item-design">Basic Details
+					</div>
+				</div>
+				<div class="row">	
+					<div class="col-md-10 col-md-offset-1 menu-item-design">Bar Info</div>
+				</div>
+				<br><br>
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1 ">* Required fields
+					</div>
+				</div>
+				<br>	
+			</div>
+
+			<div class="col-md-8 slider">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="text-color">*Practice Areas:</div>
+					</div>
+					<div class="col-md-8 col-md-offset-1">
+						<select id="practice-area">
+							<option>Select Max 4 Practice Area</option>
+							<option>Mumbai</option>
+							<option>Kolkatta</option>
+							<option>Rajasthan</option>
+							<option>Banglore</option>
+						</select>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-md-3">
+						<div class="text-color">*Court:</div>
+					</div>
+					<div class="col-md-6 col-md-offset-1">
+						<input type="textfield" placeholder="Court Name" id="court"></input>
+						<div id="add-field">
+						</div>
+					</div>
+					<div class="col-md-1">
+						<button onclick="addField()" id="add-button" class="menu-item-design lower-button-margin">+Add</button>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-md-3">
+						<div class="text-color">*State:</div>
+					</div>
+					<div class="col-md-8 col-md-offset-1">
+						<input type="textfield" placeholder="Delhi" id="state"></input>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-md-3">
+						<div class="text-color">*Office Address:</div>
+					</div>
+					<div class="col-md-8 col-md-offset-1">
+						<input type="textfield" placeholder="Delhi" id="address"></input>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="container">
+		<div class="col-md-6 col-md-offset-5">
+			<a href="index.html">
+				<button class="menu-item-design lower-button-margin">Back</button>
+			</a>
+			<button class="menu-item-design lower-button-margin"  onclick="loadAnotherFrom()">Next</button>
+		</div>
+	</div>
+
+</div>
+</body>
+</html>

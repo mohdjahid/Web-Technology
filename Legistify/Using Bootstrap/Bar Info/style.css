@@ -71,6 +71,20 @@ ul li:last-child{
 	background-color:#eeeced; /*  Grey color */
 }
 
+.image-choser-holder{
+	width:100px;
+	height:80px;
+}
+
+.file-choser{
+	color:#eeeced;
+	font-weight:bold;
+	width:96px;
+	padding:0px;
+	border:2px solid black;
+
+}
+
 .menu-item-design{
 	font-size:22px;
 	border:4px solid #232c3d;
@@ -91,7 +105,7 @@ select, input{
 	color:#eeeced;
 	font-weight:bold;
 	width:100%;
-	padding:5px;
+	padding:7px;
 	outline:none; 
 }
 
@@ -116,5 +130,3 @@ select, input{
 	background-color:#232c3d;
 	color:white;
 }
-
-

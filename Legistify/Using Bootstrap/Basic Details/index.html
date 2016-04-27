@@ -12,6 +12,68 @@
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 
 	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script>
+		
+		function loadAnotherFrom()
+		{
+			
+			if(document.getElementById("summary").value=="")
+			{
+				alert("Please fill the sumarry of 160 characters");
+				return;
+			}
+			if(document.getElementById("job").value=="")
+			{
+				alert("Please fill job title for Experience");
+				return;
+			}
+			if(document.getElementById("company").value=="")
+			{
+				alert("Please fill Experience from previous company");
+				return;
+			}
+			if(document.getElementById("from").value=="")
+			{
+				alert("Please fill Experience initial year");
+				return;
+			}
+			if(document.getElementById("to").value=="")
+			{
+				alert("Please fill Experience last year");
+				return;
+			}
+			if(document.getElementById("honour").value=="")
+			{
+				alert("Fill the Honours Name");
+				return;
+			}
+			if(document.getElementById("grant").value=="")
+			{
+				alert("Fill the Grant Field");
+				return;
+			}
+			if(document.getElementById("honouryear").value=="")
+			{
+				alert("Fill Honours Year");
+				return;
+			}
+			if(document.getElementById("pubtitle").value=="")
+			{
+				alert("Please Specify Publication Title");
+				return;
+			}
+			if(document.getElementById("pubyear").value=="")
+			{
+				alert("Please Specify Publication Year");
+				return;
+			}
+
+			
+			window.location.href="E:\\Web Technology\\Legistify\\Using Bootstrap\\Bar Info\\index.html";
+		}
+	</script>
+
 </head>
 
 <body>
@@ -75,7 +137,7 @@
 						<div class="text-color">*Summary:</div>
 					</div>
 					<div class="col-md-8 col-md-offset-1">
-						<textarea rows="8" placeholder="Min 160 Characters"></textarea>
+						<textarea rows="8" placeholder="Min 160 Characters" id="summary"></textarea>
 					</div>
 				</div>
 				<br>
@@ -84,22 +146,22 @@
 						<div class="text-color">*Experience:</div>
 					</div>
 					<div class="col-md-8 col-md-offset-1">
-						<input type="textfield" placeholder="Job Title"></input>
+						<input type="textfield" placeholder="Job Title" id="job"></input>
 						<br><br>
-						<input type="textfield" placeholder="Company Name"></input>
+						<input type="textfield" placeholder="Company Name" id="company"></input>
 						<br><br>
 						<div class="row">
 							<div class="col-md-2">
 								<b style="font-size:20px">From</b>
 							</div>
 							<div class="col-md-3">
-								<input type="textfield"></input>
+								<input type="textfield" id="from"></input>
 							</div>
 							<div class="col-md-2">
 								<b style="font-size:20px">To</b>
 							</div>
 							<div class="col-md-3">
-								<input type="textfield"></input>
+								<input type="textfield" id="to"></input>
 							</div>
 							<div class="col-md-2">
 								Job Duration
@@ -113,13 +175,13 @@
 						<div class="text-color">*Honours:</div>
 					</div>
 					<div class="col-md-8 col-md-offset-1">
-						<input type="textfield" placeholder="Name"></input>
+						<input type="textfield" placeholder="Name" id="honour"></input>
 						<br><br>
-						<input type="textfield" placeholder="Granted By"></input>
+						<input type="textfield" placeholder="Granted By" id="grant"></input>
 						<br><br>
 						<div class="row">
 							<div class="col-md-2">
-								<input type="textfield" placeholder="Year"></input>
+								<input type="textfield" placeholder="Year" id="honouryear"></input>
 							</div>
 						</div>
 					</div>
@@ -130,11 +192,11 @@
 						<div class="text-color">*Publications:</div>
 					</div>
 					<div class="col-md-8 col-md-offset-1">
-						<input type="textfield" placeholder="Title"></input>
+						<input type="textfield" placeholder="Title" id="pubtitle"></input>
 						<br><br>
 						<div class="row">
 							<div class="col-md-2">
-								<input type="textfield" placeholder="Year"></input>
+								<input type="textfield" placeholder="Year" id="pubyear"></input>
 							</div>
 						</div>
 					</div>
@@ -146,8 +208,10 @@
 	<br>
 	<div class="container">
 		<div class="col-md-6 col-md-offset-5">
-			<button class="menu-item-design lower-button-margin">Back</button>
-			<button class="menu-item-design lower-button-margin">Finish</button>
+			<a href="E:\Web Technology\Legistify\Using Bootstrap\Legal Info\index.html">
+				<button class="menu-item-design lower-button-margin">Back</button>
+			</a>
+				<button class="menu-item-design lower-button-margin" onclick="loadAnotherFrom()">Next</button>
 		</div>
 	</div>
 

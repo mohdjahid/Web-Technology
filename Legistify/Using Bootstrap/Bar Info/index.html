@@ -12,6 +12,41 @@
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 
 	<link rel="stylesheet" type="text/css" href="style.css">
+
+
+	<script>
+		function addField()
+		{
+			
+			var a=document.getElementById("add-field");
+			var b=document.createElement("div");
+			b.innerHTML='<br><input type="textfield" placeholder="Year"></input>';
+			a.appendChild(b);
+			document.getElementById("add-button").style.visibility="hidden";
+		}
+
+		function loadAnotherFrom()
+		{
+			if(document.getElementById("bid").value=="")
+			{
+				alert("Please Fill a Bar I.D");
+				return;
+			}
+			if(document.getElementById("year").value=="")
+			{
+				alert("Please Enter a Year");
+				return;
+			}
+			if(document.getElementById("file").value=="")
+			{
+				alert("Please Enter a Year");
+				return;
+			}
+			
+		}
+
+	</script>
+
 </head>
 
 <body>
@@ -69,8 +104,9 @@
 				</div>
 				<br>	
 			</div>
-			<br>
-			<div class="col-md-8 slider">
+			
+		<form id="myform" method="get">
+	    	<div class="col-md-8 slider">
 				<div class="row">
 					<div class="col-md-3">
 						<div class="text-color">*State:</div>
@@ -91,7 +127,7 @@
 						<div class="text-color">*Bar I.D:</div>
 					</div>
 					<div class="col-md-8 col-md-offset-1">
-						<input type="textfield"></input>
+						<input type="textfield" id="bid"></input>
 					</div>
 				</div>
 				<br>
@@ -99,9 +135,15 @@
 					<div class="col-md-3">
 						<div class="text-color">*Year:</div>
 					</div>
-					<div class="col-md-8 col-md-offset-1">
-						<input type="textfield" placeholder="Year"></input>
-					</div>
+						<div class="col-md-6 col-md-offset-1">
+							<input type="textfield" placeholder="Year" id="year"></input>
+							<div id="add-field">
+							</div>
+						</div>
+					
+					<div class="col-md-1">
+							<button onclick="addField()" id="add-button" class="menu-item-design lower-button-margin">+Add</button>
+					</div> 
 				</div>
 				<br>
 				<div class="row">
@@ -112,21 +154,24 @@
 				</div>
 				<div class="row">
 					<div class="col-md-3">
-						<div class="text-color form-menu-color">ImageAYEGA</div>
+						<div class="text-color form-menu-color image-choser-holder"></div>
 					</div> 
 					<div class="col-md-2 col-md-offset-1">	
-						<button class="menu-item-design reference-menu-item">Choose File</button>
+						<input type="file" class="file-choser" id="file"></input>
 						No File Chosen
 					</div>
 				</div>
 			</div>
+		</from>	
 		</div>
 	</div>
 	<br>
 	<div class="container">
 		<div class="col-md-6 col-md-offset-5">
-			<button class="menu-item-design lower-button-margin">Back</button>
-			<button class="menu-item-design lower-button-margin">Finish</button>
+			<a href="E:\Web Technology\Legistify\Using Bootstrap\Basic Details\index.html">
+				<button class="menu-item-design lower-button-margin">Back</button>
+			</a>
+				<button class="menu-item-design lower-button-margin" onclick="loadAnotherFrom()">Finish</button>
 		</div>
 	</div>
 

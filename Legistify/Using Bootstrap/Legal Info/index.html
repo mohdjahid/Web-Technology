@@ -12,6 +12,36 @@
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 
 	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script>
+		function loadAnotherFrom()
+		{
+			
+			if(document.getElementById("practice-area").value=="Select Max 4 Practice Area")
+			{
+				alert("Please chose a Practice Area");
+				return;
+			}
+			if(document.getElementById("court").value=="")
+			{
+				alert("Please type a court name");
+				return;
+			}
+			if(document.getElementById("state").value=="")
+			{
+				alert("Please fill a state");
+				return;
+			}
+			if(document.getElementById("address").value=="")
+			{
+				alert("Please fill the user name");
+				return;
+			}
+			window.location.href="E:\\Web Technology\\Legistify\\Using Bootstrap\\Basic Details\\index.html";
+		}
+	</script>
+
+
 </head>
 
 <body>
@@ -67,14 +97,14 @@
 				</div>
 				<br>	
 			</div>
-			<br>
-			<div class="col-md-8">
+
+			<div class="col-md-8 slider">
 				<div class="row">
 					<div class="col-md-3">
 						<div class="text-color">*Practice Areas:</div>
 					</div>
 					<div class="col-md-8 col-md-offset-1">
-						<select>
+						<select id="practice-area">
 							<option>Select Max 4 Practice Area</option>
 							<option>Mumbai</option>
 							<option>Kolkatta</option>
@@ -89,7 +119,7 @@
 						<div class="text-color">*Court:</div>
 					</div>
 					<div class="col-md-8 col-md-offset-1">
-						<input type="textfield"></input>
+						<input type="textfield" id="court"></input>
 					</div>
 				</div>
 				<br>
@@ -98,7 +128,7 @@
 						<div class="text-color">*State:</div>
 					</div>
 					<div class="col-md-8 col-md-offset-1">
-						<input type="textfield" placeholder="Delhi"></input>
+						<input type="textfield" placeholder="Delhi" id="state"></input>
 					</div>
 				</div>
 				<br>
@@ -107,7 +137,7 @@
 						<div class="text-color">*Office Address:</div>
 					</div>
 					<div class="col-md-8 col-md-offset-1">
-						<input type="textfield" placeholder="Delhi"></input>
+						<input type="textfield" placeholder="Delhi" id="address"></input>
 					</div>
 				</div>
 			</div>
@@ -116,8 +146,10 @@
 	<br>
 	<div class="container">
 		<div class="col-md-6 col-md-offset-5">
-			<button class="menu-item-design lower-button-margin">Back</button>
-			<button class="menu-item-design lower-button-margin">Finish</button>
+			<a href="E:\Web Technology\Legistify\Using Bootstrap\User Details\index.html">
+				<button class="menu-item-design lower-button-margin">Back</button>
+			</a>
+			<button class="menu-item-design lower-button-margin"  onclick="loadAnotherFrom()">Next</button>
 		</div>
 	</div>
 

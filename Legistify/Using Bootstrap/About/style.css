@@ -47,15 +47,36 @@ ul li:last-child{
 }
 
 .rahul-text{
-	font-size:45px;
+	font-size:50px;
 	font-weight: bold;
-	letter-spacing: 12px;
+	letter-spacing: 10px;
+	font-family: verdana
 }
 
+@media screen and (max-width:768px)
+{
+	.rahul-text{
+		font-size:20px;
+	}
+}
+
+
+@media screen and (max-width:480px)
+{
+	.rahul-text{
+		font-size:20px;
+	}
+}
+
+@media screen and (max-width:320px)
+{
+	.rahul-text{
+	font-size:20px;
+	}
+}
 a{
 	color:black;
 }
-
 
 @media screen and (max-width:480px)
 {

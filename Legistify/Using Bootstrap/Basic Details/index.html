@@ -15,6 +15,97 @@
 
 	<script>
 		
+		function addField()
+		{	
+			var a=document.getElementById("add-field");
+			var b=document.createElement("div");
+			b.innerHTML='<br>'+
+				'<div class="row">'+
+					'<div class="col-md-3">'+
+						'<div class="text-color">*Experience:</div>'+
+					'</div>'+
+					'<div class="col-md-8 col-md-offset-1">'+
+						'<input type="textfield" placeholder="Job Title"'+
+						'id="job"></input>'+
+						'<br><br>'+
+						'<input type="textfield" placeholder="Company Name"'+
+						'id="company"></input>'+
+						'<br><br>'+
+						'<div class="row">'+
+							'<div class="col-md-2">'+
+								'<b style="font-size:20px">From</b>'+
+							'</div>'+
+							'<div class="col-md-3">'+
+								'<input type="textfield" id="from"></input>'+
+							'</div>'+
+							'<div class="col-md-2">'+
+								'<b style="font-size:20px">To</b>'+
+							'</div>'+
+							'<div class="col-md-3">'+
+								'<input type="textfield" id="to"></input>'+
+							'</div>'+
+							'<div class="col-md-2">'+
+								'Job Duration'+
+							'</div>'+
+						'</div>'+
+					'</div>'+
+				'</div>';
+
+			a.appendChild(b);
+		}
+
+		function addField1()
+		{
+			
+			var a=document.getElementById("add-field1");
+			var b=document.createElement("div");
+			b.innerHTML='<br>'+
+				'<div class="row">'+
+					'<div class="col-md-3">'+
+						'<div class="text-color">*Honours:</div>'+
+					'</div>'+
+					'<div class="col-md-8 col-md-offset-1">'+
+					  '<input type="textfield" placeholder="Name" id="honour">'+'</input>'+
+						'<br><br>'+
+						'<input type="textfield" placeholder="Granted By"'+
+						 'id="grant"></input>'+
+						'<br><br>'+
+						'<div class="row">'+
+							'<div class="col-md-2">'+
+								'<input type="textfield" placeholder="Year"'+
+								'id="honouryear"></input>'+
+							'</div>'+
+						'</div>'+
+					'</div>'+
+				'</div>';
+			a.appendChild(b);
+		}
+
+		function addField2()
+		{
+			
+			var a=document.getElementById("add-field2");
+			var b=document.createElement("div");
+			b.innerHTML='<br>'+
+				'<div class="row">'+
+					'<div class="col-md-3">'+
+						'<div class="text-color">*Publications:</div>'+
+					'</div>'+
+					'<div class="col-md-8 col-md-offset-1">'+
+						'<input type="textfield" placeholder="Title"'+
+						 'id="pubtitle"></input>'+
+						'<br><br>'+
+						'<div class="row">'+
+							'<div class="col-md-2">'+
+								'<input type="textfield" placeholder="Year"'+
+								 'id="pubyear"></input>'+
+							'</div>'+
+						'</div>'+
+					'</div>'+
+				'</div>';
+			a.appendChild(b);
+		}
+
 		function loadAnotherFrom()
 		{
 			
@@ -131,7 +222,6 @@
 				<br>	
 			</div>
 			
-			<form id="myform" method="get">
 			<div class="col-md-8 slider">
 				<div class="row">
 					<div class="col-md-3">
@@ -170,7 +260,18 @@
 						</div>	
 					</div>
 				</div>
+
+				<div id="add-field">
+				</div>
+				<br><br>
+				<div class="row">
+					<div class="col-md-2 col-md-offset-4">
+						<button onclick="addField()" id="add-button" class="menu-item-design lower-button-margin">+Add</button>
+					</div>
+				</div>
+
 				<br>
+
 				<div class="row">
 					<div class="col-md-3">
 						<div class="text-color">*Honours:</div>
@@ -187,6 +288,16 @@
 						</div>
 					</div>
 				</div>
+
+				<div id="add-field1">
+				</div>
+				<br><br>
+				<div class="row">
+					<div class="col-md-2 col-md-offset-4">
+						<button onclick="addField1()" id="add-button1" class="menu-item-design lower-button-margin">+Add</button>
+					</div>
+				</div>
+
 				<br>
 				<div class="row">
 					<div class="col-md-3">
@@ -202,6 +313,16 @@
 						</div>
 					</div>
 				</div>
+
+				<div id="add-field2">
+				</div>
+				<br><br>
+				<div class="row">
+					<div class="col-md-2 col-md-offset-4">
+						<button onclick="addField2()" id="add-button2" class="menu-item-design lower-button-margin">+Add</button>
+					</div>
+				</div>
+
 			</div>
 
 		</div>

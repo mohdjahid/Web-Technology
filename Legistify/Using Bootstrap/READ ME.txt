@@ -1,0 +1,31 @@
+Respectde Sir,
+	
+	Subject: Legistify_Front End Assignment
+
+	Project has been completed. Please find the
+	attachment.
+	Attachment Containing a ZIP folder named "Legistify".
+	
+	Where to Access:
+	1. Unzipped Legistify Folder. 
+	2. Open the index.html file.
+	3. Fill all 4 forms completely.
+	4. Aftter Submit, You will move to the Review Page and About US Page
+
+	Technologies Used:
+	1. HTML
+	2. CSS
+	3. JAVASCRIPT
+	4. BOOTSRAP
+	5. MEDIA QUERY
+	   and Font-Awesome as plug-in
+
+Fully Responsive webiste, and somewhere MEDIA QUERY is also used to adjust the view.
+Hope you liked my work,
+
+Thankyou,	
+Name : Mohd.Jahid
+Institue: JAMAIA MILLIA ISLAMI
+Contact No: +91 9910157872
+	    +91 8860350926
+Email Address: mohd.jahid.jmi@gmail.com	

@@ -1,0 +1,57 @@
+1. descendant selector (space)
+2. child selector (>)
+3. adjacent sibling selector (+)
+4. general sibling selector (~)
+
+HTML                                     
+	<div>
+		<p>Paragraph 1 in the div.</p> 
+		<p>Paragraph 2 in the div.</p>
+		<span><p>Paragraph 3 in the div.</p></span>
+	</div>
+
+	<p>Paragraph 4 Not in a div.</div>
+	<p>Paragraph 4 Not in a div.</div>
+
+CSS
+	1. descendant selector (space)
+		div p{
+			background-color:yellow;
+		}
+	2. child selector (space)
+		div > p{
+			background-color:yellow;
+		}
+	3. adjacent sibling selector (+)
+		div + p{
+			background-color:yellow;
+		}
+	4. general sibling selector (~)
+		div ~ p{
+			background-color:yellow;
+		}
+OUTPUT:
+	1. descendant selector (space)
+		Paragraph 1 in the div.   yellow
+		Paragraph 2 in the div.   yellow
+		Paragraph 3 in the div.   yellow
+		Paragraph 4 Not in a div. 
+		Paragraph 5 Not in a div. 
+	2. child selector (>)
+		Paragraph 1 in the div.   yellow
+		Paragraph 2 in the div.   yellow
+		Paragraph 3 in the div.   
+		Paragraph 4 Not in a div. 
+		Paragraph 5 Not in a div. 
+	3. adjacent sibling selector (+)
+		Paragraph 1 in the div.   
+		Paragraph 2 in the div.   
+		Paragraph 3 in the div.   
+		Paragraph 4 Not in a div. yellow
+		Paragraph 5 Not in a div. 
+	4. general sibling selector (~)	
+		Paragraph 1 in the div.   
+		Paragraph 2 in the div.   
+		Paragraph 3 in the div.   
+		Paragraph 4 Not in a div. yellow
+		Paragraph 5 Not in a div. yellow	

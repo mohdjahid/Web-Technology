@@ -1,0 +1,15 @@
+There are 4 positions:
+	1. static
+	2. fixed
+	3. absolute
+	4. relative
+
+These positions like
+	1. top
+	2. bottom
+	3. left
+	4. right
+
+worked with position:static,fixed,absolute,relative
+
+if we use top,bottom,left,right it will create another layer with position.

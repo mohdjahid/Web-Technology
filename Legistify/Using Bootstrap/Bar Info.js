@@ -5,8 +5,14 @@ function addField()
 			var b=document.createElement("div");
 			b.innerHTML='<br><input type="textfield" placeholder="Year"></input>';
 			a.appendChild(b);
-			document.getElementById("add-button").style.visibility="hidden";
+			document.getElementById("add-field").style.visibility="visible";	
+			// document.getElementById("add-button").style.visibility="hidden";
 		}
+
+function removeField()
+	{
+		document.getElementById("add-field").style.visibility="hidden";	
+	}		
 
 function loadAnotherFrom()
 {

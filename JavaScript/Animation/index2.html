@@ -1,0 +1,26 @@
+<!-- Animation Using onMouseOver and onMouseOut -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mouse Event</title>
+	<script type="text/javascript">
+		if(document.images)
+		{
+			var image1=new Image();    // Preload an image
+			image1.src="jmi logo.jpg";
+			var image2=new Image();    // Preload second image
+			image2.src="logo.jpg";
+			alert("hello");
+		}
+	</script>
+</head>
+
+<body>
+	<p>Move your mouse over the image to see the result</p>
+	<a href="#" onMouseOver="document.myImage.src=image2.src;"
+	onMouseOut="document.myImage.src=image1.src;">
+		<img name="myImage" src="logo.jpg" />
+	</a>
+</body>
+</html>

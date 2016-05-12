@@ -1,0 +1,16 @@
+File:
+ 	myfirstexample.html
+		It show how to implement MVC model in Angular JS
+
+File:  ModelnView.html
+		how to create model using ng-model=""
+		how to use model as view using ng-bind=""
+	
+		How AngularJS integrates with HTML
+			ng-app directive indicates the start of AngularJS application.
+
+			ng-model directive then creates a model variable named "name" which can be used with the html page 			and within the div having ng-app directive.
+
+			ng-bind then uses the name model to be displayed in the html span tag whenever user input 			something in the text box.
+
+			Closing</div> tag indicates the end of AngularJS application.

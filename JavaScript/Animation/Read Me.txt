@@ -1,0 +1,4 @@
+index : For manual Animation
+index1: For Automatic Animation
+index2: For On Mouse Events
+index3: For on Radio Button Changed

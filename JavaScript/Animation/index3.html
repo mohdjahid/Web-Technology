@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script>
+		function handleChange1()
+		{
+				alert("Radio Button 1 changed");
+		}
+
+		function handleChange2()
+		{
+				alert("Radio Button 2 changed");
+		}
+	</script>
+
+</head>
+
+<body>
+	<input type="radio" name="myRadios" onchange="handleChange1();" value="1" />
+	<input type="radio" name="myRadios" onchange="handleChange2();" value="2" />
+
+	<!-- onclick will also work -->
+</body>
+</html>

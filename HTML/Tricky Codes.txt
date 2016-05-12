@@ -15,3 +15,12 @@ Standard Codes
 		margin: 0 auto;
 	}
 
+
+Set Icon on title:
+<link rel="icon" type="image/x-icon" href="jmi logo.jpg">
+
+Size:
+%
+px
+em
+1 em=16px

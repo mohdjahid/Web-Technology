@@ -1,0 +1,6 @@
+Filters: to format the output
+	1. uppercase
+	2. lowercase
+	3. currency
+	4. filter
+	5. orderby

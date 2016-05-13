@@ -1,0 +1,6 @@
+More directives to bind application data to attributes of HTML DOM Elements.
+1.	ng-disabled	disables a given control.
+2.	ng-show		shows a given control.
+3.	ng-hide		hides a given control.
+4.	ng-click	represents a AngularJS click event.
+	

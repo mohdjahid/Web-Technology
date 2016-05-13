@@ -1,0 +1,9 @@
+File: index.html
+	Contains:
+		1. Implement MVC concept
+		2. Calling AJS application (module)
+		3. Calling Controller (property of module)
+		4. Where to write model using ng-model="modelname"
+		    Note: Model name actaully the members(data and function)
+			  of Controller
+		5. Use of AJS Expression {{}} to implement view.

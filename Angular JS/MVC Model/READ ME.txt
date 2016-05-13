@@ -9,8 +9,11 @@ File:  ModelnView.html
 		How AngularJS integrates with HTML
 			ng-app directive indicates the start of AngularJS application.
 
-			ng-model directive then creates a model variable named "name" which can be used with the html page 			and within the div having ng-app directive.
+			ng-model directive then creates a model variable named "name" which can be used with the html page and within the div having ng-app directive.
 
-			ng-bind then uses the name model to be displayed in the html span tag whenever user input 			something in the text box.
+			ng-bind then uses the name model to be displayed in the html span tag whenever user input something in the text box.
 
 			Closing</div> tag indicates the end of AngularJS application.
+
+File:  ModelnView.html
+		how to put view in HTML code using Expression {{}}

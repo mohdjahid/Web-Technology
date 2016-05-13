@@ -3,7 +3,10 @@ The Angular JS Framework is divided into the following parts:
 1. ng-app
 	This directive defines and links an Angular JS Application to HTML
 2. ng-model
-	This directive binds the value of an Angular JS Application data to the HTML input controls
+	This directive binds the value of an Angular JS Application data to 	the HTML input controls
 3. ng-bind
-	This directive binds the value of an Angular JS Application data to HTML tags
+	This directive binds the value of an Angular JS Application data to 	HTML tags
+4. ng-repeat
+	for each loop
+		to read array
 

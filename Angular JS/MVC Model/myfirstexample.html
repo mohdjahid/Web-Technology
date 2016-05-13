@@ -9,14 +9,16 @@
          .controller("HelloController", function($scope) { //Controller
             $scope.helloTo = {};
             $scope.helloTo.title = "AngularJS";
+            $scope.helloTo.name= "Jahid";
          });
       </script>
    </head>
    
-   <body ng-app = "myapp">
+   <body ng-app = "myapp"> <!-- Name of Application -->
       
       <div ng-controller = "HelloController" > <!-- Model -->
          <h2>Welcome {{helloTo.title}} to the world of Tutorialspoint!</h2> <!-- View -->
+         <h2>Welcome {{helloTo.name}} to the world of Tutorialspoint!</h2> <!-- View -->
       </div>
       
    </body>

@@ -1,0 +1,47 @@
+<html>
+   
+   <head>
+      <title>AngularJS HTML DOM</title>
+      <script src = "angular.min.js"></script>
+      <script>
+         var myApp=angular.module("myApp",[]);
+
+         myApp.controller("counterController",function($scope)
+            {
+               $scope.clickCounter=6;
+            });
+
+      </script>
+   </head>
+   
+   <body>
+      <h2>AngularJS Sample Application</h2>
+      <div ng-app="myApp">
+         
+         <!-- This Example truly shows view will change when model triggers it -->
+         <table border = "0">
+            <tr>
+               <td><input type = "checkbox" ng-model = "enableDisableButton">Disable Button</td> <!-- Model -->
+               <td><button ng-disabled = "enableDisableButton">Click Me!</button></td>           <!-- View -->
+            </tr>
+            
+            <tr>
+               <td><input type = "checkbox" ng-model = "showHide1">Show Button</td> <!-- Model -->
+               <td><button ng-show = "showHide1">Click Me!</button></td> <!-- View -->
+            </tr>
+            
+            <tr>
+               <td><input type = "checkbox" ng-model = "showHide2">Hide Button</td> <!-- Model -->
+               <td><button ng-hide = "showHide2">Click Me!</button></td> <!-- View -->
+            </tr>
+            
+            <tr  ng-controller="counterController">
+               <td><p>Total click: {{ clickCounter }}</p></td> <!-- View -->
+               <td><button ng-click = "clickCounter = clickCounter -1 ">Click Me!</button></td> <!-- Model -->
+            </tr>
+         </table>
+         
+      </div>
+      
+   </body>
+</html>

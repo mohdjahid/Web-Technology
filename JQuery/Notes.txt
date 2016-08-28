@@ -1,0 +1,30 @@
+.width()      :  get only width excluding padding
+.innerWidth() :  get width including padding
+.outerWidth() :  get width including padding + border
+
+.height()      :  get only height excluding padding
+.innerHeight() :  get height including padding
+.outerHeight() :  get height including padding + border
+
+.remove()
+It will remove the whole element from the DOM.
+For Example:
+	<div class="border">
+		<p>
+			On Clicking the button, whole button will be removed.
+		</p>	
+	</div>
+	<input type="button" value="Click ME" id="btn">
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#btn').click(function(){
+				$('.border').remove();
+			});
+		});
+	</script>
+    It will remove the whole <div> from the DOM having class="border".
+
+.empty()
+    It will clear the content of en element even image,text and other tags.	
+
+

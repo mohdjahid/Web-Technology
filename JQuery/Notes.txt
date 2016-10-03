@@ -25,6 +25,38 @@ For Example:
     It will remove the whole <div> from the DOM having class="border".
 
 .empty()
-    It will clear the content of en element even image,text and other tags.	
+    It will clear the content of en element even image,text and other tags.
 
+.css()
+	to add css property using jQuery:
+	For single property:
+		.css('color','red');	
+	For multiple property:
+		.css({'color':'red','background-color':'yellow'});
+
+.parent()
+	It will access the parent element.
+.parents()
+	It will access all it's parent element.
+
+For Example:
+	<ul>
+		<li>Delhi</li>
+		<li>
+			Bangalore
+		    <li>
+			<span>Mumbai</span>
+		    </li>
+		</li>
+	</ul>
+	<input type="button" value="Click ME" id="btn">
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#btn').click(function(){
+				$('span').parent().css({'color':'red','background-color':'yellow'});
+			});	
+		});
+	</script>
+
+	It will add style on its parent <li>.
 

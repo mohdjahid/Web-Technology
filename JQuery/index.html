@@ -6,13 +6,30 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-		<div class="border">
+		<!-- <div class="border">
 				<p>
 					On Clicking the button, whole button will be removed.
 				</p>	
 		</div>
-		<input type="button" value="Click ME" id="btn">
+		<input type="button" value="Click ME" id="btn"> -->
 
+		
+		<!-- <ul>
+			<li>Delhi</li>
+			<li>
+					Bangalore
+				<li>
+					<span>Mumbai</span>
+				</li>
+			</li>
+		</ul>
+		<input type="button" value="Click ME" id="btn"> -->
+
+		<!-- UserName:<input type="text" name="userName" id="name"><br> -->
+		Password:<input type="password" name="password" id="pass"><span class="error"></span><br> 
+		<button id="show">Show Password</button><br>
+		<input type="button" value="Click ME" id="btn">		
+		
 	<!-- <script type="text/javascript">
 		$(document).ready(function(){
 			$('#btn').click(function(){
@@ -30,11 +47,84 @@
 		});
 	</script> -->
 
-	<script type="text/javascript">
+	<!-- <script type="text/javascript">
 		$(document).ready(function(){
 			$('#btn').click(function(){
 				$('.border').empty();
 			});
+		});
+	</script> -->
+	
+	<!-- <script type="text/javascript">
+		$(document).ready(function(){
+			$('#btn').click(function(){
+				$('span').parent().css({'color':'red','background-color':'yellow'});
+			});	
+		});
+	</script> -->	
+
+	<!-- <script type="text/javascript">
+		$(document).ready(function(){
+			$('#btn').click(function(){
+				var a=$('#name').val();
+				var b=$('#pass').val();
+
+				if(a=='')
+				{
+					$('.error').text("Please Insert USername");
+				}
+				else if(b=='')
+				{
+					$('.error').text("Please Insert Password");
+				}
+				else
+				{
+					$('.error').hide();
+				}
+			});
+		});	
+	</script> -->
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#pass').keyup(function(){
+				// alert("HEY");
+				var a=$('#pass').val().length;
+				if(a<1)
+				{
+					$('.error').text('');
+					$('.error').removeClass('red');
+					$('.error').removeClass('orange');
+					$('.error').removeClass('green');
+				}
+				else if(a<=4)
+				{
+					$('.error').text('Week');
+					$('.error').addClass('red');
+					$('.error').removeClass('orange');
+					$('.error').removeClass('green');
+				}
+				else if(a<=8)
+				{
+					$('.error').text('Good');
+					$('.error').addClass('orange');
+					$('.error').removeClass('red');
+					$('.error').removeClass('green');
+				}
+				else 
+				{
+					$('.error').text('Strong');
+					$('.error').addClass('green');
+					$('.error').removeClass('orange');
+					$('.error').removeClass('red');
+				}
+			});
+
+			$('#show').click(function(){
+					$('#pass').attr('type','text');
+					$('#show').removeAttr('id','none');
+			});
+
+			$().
 		});
 	</script>
 

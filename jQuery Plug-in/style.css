@@ -1,0 +1,12 @@
+body{
+	/*background-color: red;*/
+}
+
+.dropped{
+	background-color: orange;
+	border-radius: 10px;
+}
+
+.undropped{
+	background-color: gray;	
+}

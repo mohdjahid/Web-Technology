@@ -12,14 +12,56 @@ body{
 }
 
 img{
-	position:absolute;
+	/*position:absolute;*/
 	bottom:0;
 	left:0;
 }
 
-/*.UI-abc{
+.UI-abc{
 	position:absolute;
 	bottom:0;
 	left:0;	
 }
+
+/*------Fixed------
+.pos{
+	width:100px;
+	height: 100px;
+	position: fixed;
+	background-color:blue;
+	margin: 100px;
+}
+.pos-1{
+	width:100px;
+	height: 100px;
+	/*position: fixed;
+	background-color:red;
+	margin: 100px;
+}
 */
+
+/*My practice*/
+/*.UI-container{
+	width:500px;
+	height:500px;
+	margin:100px;
+	border:1px solid red;
+	position:relative;	
+}
+
+.image-container{
+	width:400px;
+	height:200px;
+	margin:auto;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	position:absolute;
+	border:1px solid green;
+}
+
+img{
+	margin-top:60px;
+	margin-left:25px;
+}*/

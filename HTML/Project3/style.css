@@ -111,6 +111,8 @@ ul li{
 
 
 ul li:hover{
+    filter:none;
+    -o-filter:none;
     -webkit-filter:none;
     -webkit-filter:drop-shadow(5px 5px 30px pink);
 }

@@ -2,7 +2,6 @@ body{
 	background-color:red;
 }
 
-
 .sprite{
 	background-image:url("sprite3.png");	
 }		
@@ -44,6 +43,5 @@ body{
 	height:500px;
 	padding:30px;
 	border:5px dotted red;
-	background-clip:padding-box;
-	
+	background-clip:padding-box;	
 }
